@@ -3,9 +3,9 @@ var app = express();
 var bodyParser = require('body-parser');
 
 var campgrounds=[
-    {name:'Salmon Creek',image:'https://www.africanmonarchlodges.com/wp-content/uploads/2016/01/Nambwa_Tented_lodge062-1030x580.jpg'},
-    {name:'Granite Hill',image:'https://www.africanmonarchlodges.com/wp-content/uploads/2016/01/Nambwa_Tented_lodge059-1030x580.jpg'},
-    {name:"Mountain Goat's Rest",image:'https://boyslifeorg.files.wordpress.com/2014/04/tent-featured.jpg'}
+    {name:'Salmon Creek',image:'https://www.nationalparks.nsw.gov.au/-/media/npws/images/parks/munmorah-state-conservation-area/background/freemans-campground-background.jpg'},
+    {name:'Granite Hill',image:'https://i.pinimg.com/originals/18/74/aa/1874aabee3220440d111ac4614a2805b.jpg'},
+    {name:"Mountain Goat's Rest",image:'https://res.cloudinary.com/simpleview/image/upload/c_limit,f_auto,h_1200,q_75,w_1200/v1/clients/poconos/Campgrounds_Tent_Sites_Woman_Hemlock_Campground_4_PoconoMtns_06f196d5-8814-4803-a132-8a4daae1755e.jpg'}
 ];
 
 app.use(bodyParser.urlencoded({extended:true}));
